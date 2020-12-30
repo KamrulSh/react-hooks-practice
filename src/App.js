@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import ComponentA from "./components/ComponentA";
 import DataFetching from "./components/DataFetching";
 import DataFetchingTwo from "./components/DataFetchingTwo";
 import HooksCounter from "./components/HooksCounter";
@@ -20,6 +21,7 @@ class App extends Component {
                 <MouseContainer />
                 <DataFetching />
                 <DataFetchingTwo />
+                <ComponentA />
             </div>
         );
     }
