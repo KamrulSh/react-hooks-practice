@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+import "./App.css";
+import DataFetching from "./components/DataFetching";
+import DataFetchingTwo from "./components/DataFetchingTwo";
+import HooksCounter from "./components/HooksCounter";
+import HooksCounterFour from "./components/HooksCounterFour";
+import HooksCounterThree from "./components/HooksCounterThree";
+import HooksCounterTwo from "./components/HooksCounterTwo";
+import MouseContainer from "./components/MouseContainer";
+import MyApp from "./components/MyApp";
+class App extends Component {
+    render() {
+        return (
+            <div>
+                <MyApp />
+                <HooksCounter />
+                <HooksCounterTwo />
+                <HooksCounterThree />
+                <HooksCounterFour />
+                <MouseContainer />
+                <DataFetching />
+                <DataFetchingTwo />
+            </div>
+        );
+    }
 }
 
 export default App;
