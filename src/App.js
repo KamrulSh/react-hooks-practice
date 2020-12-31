@@ -9,6 +9,7 @@ import HooksCounterThree from "./components/HooksCounterThree";
 import HooksCounterTwo from "./components/HooksCounterTwo";
 import MouseContainer from "./components/MouseContainer";
 import MyApp from "./components/MyApp";
+import ReducerComponent from "./components/ReducerComponent";
 import ReducerCounter from "./components/ReducerCounter";
 import ReducerCounterThree from "./components/ReducerCounterThree";
 import ReducerCounterTwo from "./components/ReducerCounterTwo";
@@ -28,6 +29,7 @@ class App extends Component {
                 <ReducerCounter />
                 <ReducerCounterTwo />
                 <ReducerCounterThree />
+                <ReducerComponent />
             </div>
         );
     }
