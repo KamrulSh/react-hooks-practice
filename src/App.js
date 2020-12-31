@@ -9,6 +9,9 @@ import HooksCounterThree from "./components/HooksCounterThree";
 import HooksCounterTwo from "./components/HooksCounterTwo";
 import MouseContainer from "./components/MouseContainer";
 import MyApp from "./components/MyApp";
+import ReducerCounter from "./components/ReducerCounter";
+import ReducerCounterThree from "./components/ReducerCounterThree";
+import ReducerCounterTwo from "./components/ReducerCounterTwo";
 class App extends Component {
     render() {
         return (
@@ -22,6 +25,9 @@ class App extends Component {
                 <DataFetching />
                 <DataFetchingTwo />
                 <ComponentA />
+                <ReducerCounter />
+                <ReducerCounterTwo />
+                <ReducerCounterThree />
             </div>
         );
     }
