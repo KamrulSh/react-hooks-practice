@@ -13,6 +13,7 @@ import ReducerComponent from "./components/ReducerComponent";
 import ReducerCounter from "./components/ReducerCounter";
 import ReducerCounterThree from "./components/ReducerCounterThree";
 import ReducerCounterTwo from "./components/ReducerCounterTwo";
+import ReducerDataFetching from "./components/ReducerDataFetching";
 class App extends Component {
     render() {
         return (
@@ -30,6 +31,7 @@ class App extends Component {
                 <ReducerCounterTwo />
                 <ReducerCounterThree />
                 <ReducerComponent />
+                <ReducerDataFetching />
             </div>
         );
     }
