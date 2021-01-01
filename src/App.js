@@ -3,6 +3,7 @@ import "./App.css";
 import ComponentA from "./components/ComponentA";
 import ComponentCallback from "./components/ComponentCallback";
 import CustomHookCounter from "./components/CustomHookCounter";
+import CustomHookForm from "./components/CustomHookForm";
 import CustomHookTitle from "./components/CustomHookTitle";
 import DataFetching from "./components/DataFetching";
 import DataFetchingTwo from "./components/DataFetchingTwo";
@@ -44,6 +45,7 @@ class App extends Component {
                 <RefCountInterval />
                 <CustomHookTitle />
                 <CustomHookCounter />
+                <CustomHookForm />
             </div>
         );
     }
