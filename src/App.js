@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import ComponentA from "./components/ComponentA";
 import ComponentCallback from "./components/ComponentCallback";
+import CustomHookTitle from "./components/CustomHookTitle";
 import DataFetching from "./components/DataFetching";
 import DataFetchingTwo from "./components/DataFetchingTwo";
 import HooksCounter from "./components/HooksCounter";
@@ -40,6 +41,7 @@ class App extends Component {
                 <MemoCounter />
                 <RefFocusInput />
                 <RefCountInterval />
+                <CustomHookTitle />
             </div>
         );
     }
