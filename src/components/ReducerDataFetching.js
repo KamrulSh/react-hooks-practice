@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useReducer } from "react";
 
+// REST API JSON data fetching using useReducer
 const initialState = {
     loading: true,
     error: "",
@@ -45,7 +46,9 @@ function ReducerDataFetching() {
             <h3>
                 {state.loading
                     ? "Loading..."
-                    : state.users.map((user) => <h4>{user.name}</h4>)}
+                    : state.users.map((user) => (
+                          <p key={user.id}>{user.name}</p>
+                      ))}
                 {state.error ? state.error : null}
             </h3>
         </div>
