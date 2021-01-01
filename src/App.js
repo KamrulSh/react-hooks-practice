@@ -8,6 +8,7 @@ import HooksCounter from "./components/HooksCounter";
 import HooksCounterFour from "./components/HooksCounterFour";
 import HooksCounterThree from "./components/HooksCounterThree";
 import HooksCounterTwo from "./components/HooksCounterTwo";
+import MemoCounter from "./components/MemoCounter";
 import MouseContainer from "./components/MouseContainer";
 import MyApp from "./components/MyApp";
 import ReducerComponent from "./components/ReducerComponent";
@@ -15,6 +16,8 @@ import ReducerCounter from "./components/ReducerCounter";
 import ReducerCounterThree from "./components/ReducerCounterThree";
 import ReducerCounterTwo from "./components/ReducerCounterTwo";
 import ReducerDataFetching from "./components/ReducerDataFetching";
+import RefCountInterval from "./components/RefCountInterval";
+import RefFocusInput from "./components/RefFocusInput";
 class App extends Component {
     render() {
         return (
@@ -34,6 +37,9 @@ class App extends Component {
                 <ReducerComponent />
                 <ReducerDataFetching />
                 <ComponentCallback />
+                <MemoCounter />
+                <RefFocusInput />
+                <RefCountInterval />
             </div>
         );
     }
