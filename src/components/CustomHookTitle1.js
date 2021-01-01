@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useDocumentTitle from "./useDocumentTitle";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 function CustomHookTitle1() {
     const [counter, setCounter] = useState(0);
